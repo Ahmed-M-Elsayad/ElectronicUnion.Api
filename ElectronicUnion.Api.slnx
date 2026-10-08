@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../ElectronicUnion.Api.Tests/ElectronicUnion.Api.Tests.csproj" Id="b1b37511-0e97-4bd0-b9c5-d3deebda6758" />
+  <Project Path="ElectronicUnion.Api.csproj" />
+</Solution>

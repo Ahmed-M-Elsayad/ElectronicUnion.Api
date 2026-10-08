@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl" id="mainHtml" class="dark-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#090e17">
+
+    <!-- Security: CSP -->
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        img-src 'self' https://i.postimg.cc data:;
+        style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
+        font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+        script-src 'self';
+        connect-src 'self' https://your-api-domain.com;
+        object-src 'none';
+        base-uri 'self';
+        form-action 'self';
+        frame-ancestors 'none';
+        upgrade-insecure-requests;
+    ">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <!-- SEO -->
+    <title>Electronic Union Team | فريق الاتحاد الإلكتروني</title>
+    <meta name="description" content="فريق الاتحاد الإلكتروني - المعهد العالي للهندسة والتكنولوجيا بكفر الشيخ.">
+    <meta name="author" content="Electronic Union Team">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Electronic Union Team">
+    <meta property="og:description" content="Electronic Station Project - Power, Signals, Amplifier, Oscilloscope & AI.">
+    <meta property="og:image" content="https://i.postimg.cc/bY2DNWfB/Electronic-Union.jpg">
+    <meta property="og:url" content="https://Ahmed-M-Elsayad.github.io/Electronics/">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Electronic Union Team">
+    <meta name="twitter:description" content="Electronic Station Project.">
+    <meta name="twitter:image" content="https://i.postimg.cc/bY2DNWfB/Electronic-Union.jpg">
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- Font Awesome with SRI -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap">
+
+    <link rel="icon" type="image/jpeg" href="https://i.postimg.cc/bY2DNWfB/Electronic-Union.jpg">
+
+    <!-- Theme Init -->
+    <script src="js/theme-init.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="theme-switch reveal">
+        <button class="btn-action" id="langBtn" type="button" aria-label="Switch language">
+            <i class="fa-solid fa-globe" aria-hidden="true"></i>
+            <span data-i18n="langBtnLabel">English</span>
+        </button>
+        <button class="btn-action btn-secondary" id="themeBtn" type="button" aria-label="Toggle theme">
+            <i class="fa-solid fa-sun icon-sun" aria-hidden="true"></i>
+            <i class="fa-solid fa-moon icon-moon" aria-hidden="true"></i>
+            <span data-i18n="themeBtnLabel">الوضع النهاري</span>
+        </button>
+    </div>
+
+    <header class="reveal">
+        <div class="logo-box">
+            <img src="https://i.postimg.cc/hGyzfqGC/Higher-Institute-of-Engineering-and-Technology-in-Kafr-El-Sheikh.jpg"
+                 alt="Institute Logo" loading="lazy" decoding="async" width="55" height="55">
+        </div>
+
+        <div class="header-title">
+            <h1 id="mainTitle" class="gradient-text" data-i18n="mainTitle">فريق الاتحاد الإلكتروني</h1>
+            <p id="subTitle" data-i18n="subTitle">المعهد العالي للهندسة والتكنولوجيا بكفر الشيخ</p>
+        </div>
+
+        <div class="logo-box">
+            <img src="https://i.postimg.cc/bY2DNWfB/Electronic-Union.jpg"
+                 alt="Electronic Union Logo" loading="lazy" decoding="async" width="55" height="55">
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="card supervisor-section reveal">
+            <img src="https://i.postimg.cc/43JN62MX/Ibrahim-Zewail.jpg"
+                 alt="Dr. Ibrahim Zewail" class="supervisor-img"
+                 loading="lazy" decoding="async" width="120" height="120">
+            <h3 class="supervisor-head" data-i18n="supervisorHead">تحت إشراف:</h3>
+            <p class="supervisor-name" data-i18n="supervisorName">د. إبراهيم جمال الدين إبراهيم زويل</p>
+        </section>
+
+        <a href="https://drive.google.com/file/d/1I7inC_DUV__XWnjspI3eO3opiBMSTomS/view?usp=drivesdk"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="manual-link reveal"
+           aria-label="Open project manual PDF">
+            <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+            <span data-i18n="manualLabel">فتح كتيب المشروع (Project Manual PDF)</span>
+        </a>
+
+        <section class="card table-wrapper reveal">
+            <h3 class="section-heading">
+                <i class="fa-solid fa-users-gear gradient-text" aria-hidden="true"></i>
+                <span data-i18n="teamHead">فريق العمل</span>
+            </h3>
+            <table>
+                <caption class="visually-hidden" data-i18n="teamCaption">Project team members</caption>
+                <thead>
+                    <tr>
+                        <th scope="col" data-i18n="thName">اسم الطالب</th>
+                        <th scope="col" data-i18n="thID">الكود</th>
+                        <th scope="col" data-i18n="thRole">الدور</th>
+                    </tr>
+                </thead>
+                <tbody id="teamBody"></tbody>
+            </table>
+        </section>
+
+        <section class="module-grid">
+
+            <div class="card reveal">
+                <div class="module-icon icon-power"><i class="fa-solid fa-bolt" aria-hidden="true"></i></div>
+                <h4 class="module-title" data-i18n="powerSupplyTitle">وحدة التغذية (Power Supply)</h4>
+                <p class="module-desc" data-i18n="powerSupplyDesc"></p>
+                <div class="module-spec spec-power">
+                    <i class="fa-solid fa-plug" aria-hidden="true"></i>
+                    Rails: ±5V, ±9V, ±12V, Adj (LM317)
+                </div>
+            </div>
+
+            <div class="card reveal">
+                <div class="module-icon icon-signal"><i class="fa-solid fa-wave-square" aria-hidden="true"></i></div>
+                <h4 class="module-title" data-i18n="signalGenTitle">مولد الإشارات (Signal Gen)</h4>
+                <p class="module-desc" data-i18n="signalGenDesc"></p>
+                <div class="module-spec spec-signal">
+                    <i class="fa-solid fa-microchip" aria-hidden="true"></i>
+                    IC: XR2206 Monolithic Function Gen
+                </div>
+            </div>
+
+            <div class="card reveal">
+                <div class="module-icon icon-amp"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></div>
+                <h4 class="module-title" data-i18n="amplifierTitle">مكبر الإشارة (Amplifier)</h4>
+                <p class="module-desc" data-i18n="amplifierDesc"></p>
+                <div class="module-spec spec-amp">
+                    <i class="fa-solid fa-sliders" aria-hidden="true"></i>
+                    BJT: 2N2222 Common Emitter Amp
+                </div>
+            </div>
+
+            <div class="card reveal">
+                <div class="module-icon icon-osc"><i class="fa-solid fa-desktop" aria-hidden="true"></i></div>
+                <h4 class="module-title" data-i18n="oscilloscopeTitle">راسم الإشارات (Oscilloscope)</h4>
+                <p class="module-desc" data-i18n="oscilloscopeDesc"></p>
+                <div class="module-spec spec-osc">
+                    <i class="fa-solid fa-cpu" aria-hidden="true"></i>
+                    Hardware: Arduino & OLED Screen (I2C)
+                </div>
+            </div>
+
+            <div class="card reveal">
+                <div class="module-icon icon-ai"><i class="fa-solid fa-brain" aria-hidden="true"></i></div>
+                <h4 class="module-title" data-i18n="aiTitle">الذكاء الاصطناعي (AI Component)</h4>
+                <p class="module-desc" data-i18n="aiDesc"></p>
+                <div class="module-spec spec-ai">
+                    <i class="fa-solid fa-robot" aria-hidden="true"></i>
+                    AI Engine: Gemini via Secure Proxy
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ====== AI Chat Box ====== -->
+        <section class="card ai-chat-box reveal" id="aiChatSection">
+            <h3 class="section-heading">
+                <i class="fa-solid fa-comments gradient-text" aria-hidden="true"></i>
+                <span data-i18n="aiChatHead">المساعد الذكي</span>
+            </h3>
+            <div class="chat-messages" id="chatMessages" aria-live="polite"></div>
+            <form class="chat-form" id="chatForm">
+                <input type="text"
+                       id="chatInput"
+                       class="chat-input"
+                       placeholder="اسأل عن أي حاجة في الإلكترونيات..."
+                       data-i18n-placeholder="chatPlaceholder"
+                       autocomplete="off"
+                       required
+                       maxlength="500">
+                <button type="submit" class="btn-action" id="sendBtn" aria-label="Send message">
+                    <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="js/theme-init.js"></script>
+    <script src="js/data.js" defer></script>
+    <script src="js/app.js" defer></script>
+</body>
+</html>

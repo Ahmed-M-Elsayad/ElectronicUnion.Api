@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://Ahmed-M-Elsayad.github.io/Electronics/sitemap.xml
